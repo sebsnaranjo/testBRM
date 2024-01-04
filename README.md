@@ -1,8 +1,5 @@
 ## Prueba tecnica BRM
-
-## Documentacion de la API
-
-### Documentación de la API:
+## Documentación de la API:
 ---
 Facturas: https://documenter.getpostman.com/view/20666214/2s9YsGhYxs
 Productos: https://documenter.getpostman.com/view/20666214/2s9YsGhYxt
