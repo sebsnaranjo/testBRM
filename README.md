@@ -8,4 +8,4 @@ En los siguientes links se encontraran los servicios creados para esta prueba.
 
 ## Modelo MER
 ---
-<p align="center"><img src="https://ibb.co/vBYjp23"/></p>
+<a href="https://ibb.co/vBYjp23"><img src="https://i.ibb.co/b3JKTps/Captura-de-pantalla-2024-01-04-145228.jpg" alt="Captura-de-pantalla-2024-01-04-145228" border="0" /></a>
