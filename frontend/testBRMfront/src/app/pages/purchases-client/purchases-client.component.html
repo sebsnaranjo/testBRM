@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>Información de Compras por cliente</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID Cliente</th>
+        <th>Fecha de Compra</th>
+        <th>Productos</th>
+        <th>Cantidad por Producto</th>
+        <th>Precio Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let purchase of purchases">
+        <td>{{ purchase.user_id }}</td>
+        <td>{{ purchase.date_created | date: 'dd/MM/yyyy' }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let product of purchase.products">
+              Producto ID: {{ product.product_id }}
+            </li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li *ngFor="let product of purchase.products">
+              {{ product.cantidad }}
+            </li>
+          </ul>
+        </td>
+        <td>{{ purchase.total_price }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,22 @@
+<div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID de Producto</th>
+        <th>Código de Compra</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+        <th>Fecha de Creación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data">
+        <td>{{ item.products_id }}</td>
+        <td>{{ item.cod_purchase }}</td>
+        <td>{{ item.cantidad }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.date_created | date: 'dd/MM/yyyy'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

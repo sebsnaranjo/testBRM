@@ -1,0 +1,17 @@
+<app-nav></app-nav>
+<p *ngIf="!userLoginOn">Por favor inicie sesión</p>
+<!-- <p *ngIf="userLoginOn">Usuario Autenticado</p> -->
+<!-- <div *ngIf="userLoginOn">
+  <p>Nombre: {{ userData?.name }}</p>
+  <p>Email: {{ userData?.mail }}</p>
+</div> -->
+<div *ngIf="idAsString && idAsString === '1'">
+  <h1>Bienvenido Administrador</h1>
+  <app-purchases-client></app-purchases-client>
+  <app-products></app-products>
+</div>
+<div *ngIf="idAsString && idAsString === '2'">
+    <h1>Bienvenido Cliente</h1>
+    <app-show-products></app-show-products>
+    <app-history-client></app-history-client>
+</div>
