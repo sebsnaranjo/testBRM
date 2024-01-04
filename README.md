@@ -1,4 +1,4 @@
-## Prueba tecnica BRM
+<h1 align="center"> Prueba tecnica BRM </h1>
 ## Documentación de la API:
 ---
 En los siguientes links se encontraran los servicios creados para esta prueba.
